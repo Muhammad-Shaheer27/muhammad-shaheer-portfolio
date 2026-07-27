@@ -9,22 +9,21 @@ export default function Navbar() {
   const [isImageOpen, setIsImageOpen] = useState(false);
 
   useEffect(() => {
-    const handleEscape = (event) => {
-      if (event.key === "Escape") {
-        setIsImageOpen(false);
-      }
-    };
+  const handleEscape = (event: KeyboardEvent) => {
+    if (event.key === "Escape") {
+      setIsImageOpen(false);
+    }
+  };
 
-    document.addEventListener("keydown", handleEscape);
+  document.addEventListener("keydown", handleEscape);
 
-    // Prevent background scrolling when image is open
-    document.body.style.overflow = isImageOpen ? "hidden" : "";
+  document.body.style.overflow = isImageOpen ? "hidden" : "";
 
-    return () => {
-      document.removeEventListener("keydown", handleEscape);
-      document.body.style.overflow = "";
-    };
-  }, [isImageOpen]);
+  return () => {
+    document.removeEventListener("keydown", handleEscape);
+    document.body.style.overflow = "";
+  };
+}, [isImageOpen]);
 
   return (
     <>
