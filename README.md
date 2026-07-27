@@ -1,33 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Muhammad Shaheer — Developer Portfolio
 
-## Getting Started
+A modern, responsive developer portfolio built with Next.js and Tailwind CSS.
 
-First, run the development server:
+The portfolio showcases my experience in building real-world web applications, business management systems, secure APIs, and modern full-stack applications.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Portfolio
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Visit my portfolio](https://your-domain.vercel.app)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Featured Projects
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Nain's POS System
 
-## Learn More
+A complete role-based business management system developed for a retail fashion accessories business.
 
-To learn more about Next.js, take a look at the following resources:
+The system includes:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Point of Sale (POS)
+- Inventory management
+- Product and category management
+- Sales management
+- Purchase management
+- Accounting features
+- Journal vouchers
+- Payment vouchers
+- Receipt vouchers
+- Financial reports
+- Role-based access control
+- Authentication and authorization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This is a private client project, so the source code is not publicly available.
+
+### Secure Password Generator
+
+A secure password generator with customizable password options and a clean user interface.
+
+- Live Demo: https://muhammad-shaheer27.github.io/secure-password-generator/
+- Source Code: https://github.com/Muhammad-Shaheer27/secure-password-generator
+
+## Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+### Backend & Security
+
+- Node.js
+- Express.js
+- REST APIs
+- JWT Authentication
+- Role-Based Access Control
+- Web Security Fundamentals
+
+### Databases
+
+- MongoDB
+- MySQL
+- PostgreSQL
+
+### Tools
+
+- Git
+- GitHub
+- Postman
+- Vercel
+- VS Code
+
+## Project Structure
+
+```text
+src/
+├── app/
+│   ├── nains-pos/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+└── components/
+    ├── layout/
+    ├── sections/
+    └── ui/
+
+public/
+├── images/
+├── icons/
+└── resume.pdf
 
 ## Deploy on Vercel
 
