@@ -1,6 +1,5 @@
 import Card from "../ui/Card";
 import Button from "../ui/Button";
-import Divider from "../ui/Divider";
 
 export default function Projects() {
   const projects = [
@@ -27,7 +26,10 @@ export default function Projects() {
   ];
 
   return (
-    <section className="section bg-slate-50">
+    <section 
+  id="projects" 
+  className="bg-gradient-to-b from-white via-white to-indigo-50/70 py-20"
+>
       <div className="container-custom">
         <h2 className="text-3xl font-bold text-center mb-8">
           Other Projects
@@ -52,7 +54,6 @@ export default function Projects() {
         </div>
       </div>
 
-      <Divider />    
     </section>
   );
 }

@@ -2,11 +2,11 @@ import { Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-slate-200 py-8 bg-slate-50">
+    <footer className="border-t border-slate-200 bg-slate-50 py-8 dark:border-slate-800 dark:bg-slate-900">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
         
         {/* Left */}
-        <p className="text-sm text-slate-500">
+        <p className="text-sm text-slate-500 dark:text-slate-400">
           © {new Date().getFullYear()} Muhammad Shaheer
         </p>
 
@@ -19,7 +19,7 @@ export default function Footer() {
             target="_blank"
             aria-label="GitHub profile"
             title="GitHub"
-            className="text-slate-500 hover:text-slate-900 transition"
+            className="text-slate-500 transition hover:text-slate-900 dark:text-slate-400 dark:hover:text-white"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export default function Footer() {
             target="_blank"
             aria-label="LinkedIn profile"
             title="LinkedIn"
-            className="text-slate-500 hover:text-blue-700 transition"
+            className="text-slate-500 transition hover:text-blue-700 dark:text-slate-400 dark:hover:text-blue-400"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ export default function Footer() {
             href="mailto:sheiryarkhan26@gmail.com"
             aria-label="Send email"
             title="Email"
-            className="text-slate-500 hover:text-red-600 transition"
+            className="text-slate-500 transition hover:text-red-600 dark:text-slate-400 dark:hover:text-red-400"
           >
             <Mail size={18} />
           </a>
