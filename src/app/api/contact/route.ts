@@ -16,7 +16,7 @@ export async function POST(request: Request) {
       return Response.json(
         {
           success: true,
-          message: "Your message has been sent successfully.",
+          message: "Thanks for reaching out. I've received your message and will get back to you as soon as possible.",
         },
         { status: 200 }
       );
